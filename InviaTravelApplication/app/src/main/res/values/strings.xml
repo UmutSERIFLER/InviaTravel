@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InviaTravelApplication</string>
+    <string name="search_view_label">Search Here</string>
+    <string name="search_button">Search</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="confirmation_message">Confirmation</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
