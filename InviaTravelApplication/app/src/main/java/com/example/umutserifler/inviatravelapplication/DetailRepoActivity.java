@@ -69,7 +69,7 @@ public class DetailRepoActivity extends AppCompatActivity implements RepoModelCl
         _subScriberAdapter = new RepoSubScriberAdapter(DetailRepoActivity.this,subScribersListViewArrayList);
         subScribersListView.setAdapter(_subScriberAdapter);
         subScriberRepoName = (TextView) findViewById(R.id.subScriberRepoNameTextView);
-        subScriberRepoName.setText("Repo Name : " + repoName);
+        subScriberRepoName.setText("Repo " + repoName);
         subScriberCount = (TextView) findViewById(R.id.subScribersCountTextView);
         subScriberCount.setText("SubScribersCount : " + String.valueOf(subScribersListViewArrayList.size()));
     }
