@@ -10,14 +10,9 @@ import modal.RepoSubscriberJSONObjectItem;
 
 public interface RepoModelClassListener {
 
-    // TO DO Remove unnecessary methods
     void updateCurrentList(ArrayList<RepoJSONObjectItem> takenDataList);
 
     void updateCurrentListSub(ArrayList<RepoSubscriberJSONObjectItem> takenDataList);
 
     void showLoadingDialogWindow(Boolean state);
-
-    //void newPageWithSelectedBeer(String selectedBeerInfo, String selectedBeerImageURL);
-
-    //void updateBeerFavouriteState();
 }
